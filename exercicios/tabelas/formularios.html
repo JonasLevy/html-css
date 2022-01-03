@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <style>
+        fieldset{
+            background-color: #eee;
+            width: 200px;
+            padding: 5px 5px;
+        }
+        legend{
+            margin: auto;
+            border: 1px solid black;
+            background-color: cadetblue;
+            padding: 3px;
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+<body>
+    <h1>Formularios</h1>
+    <h2>cadastros</h2>
+    <form action="index.html" method="get">
+        input tipo texto <input type="text">
+        <br>
+        input tipo passowrd <input type="password">
+        <br>
+        input tipo checkbox <input type="checkbox">
+        <br>
+        input tipo radio <input type="radio" name
+        ="sexo">
+        <input type="radio" name="sexo">
+        <br>
+        input tipo submit <input type="submit">
+        <br>
+        input tipo email <input type="email">
+
+        <h2>pratica</h2>
+        <input type="text" name="usuaro">
+       
+        date <input type="date">
+        rane <input type="range">
+        <input type="submit"><br>
+        <select name="ajustes" id="">
+            <option value="masi">valor</option>
+            <option value="menos">mais vendidos</option>
+        </select><br>
+        <br>
+        <h2>label</h2>
+        com id
+        <input type="checkbox" id="termos">
+        <label for="termos">condordo</label><br>
+        Outra forma de usar <br>
+        <label >
+            Nome Completo: <input type="text">
+        </label>
+    </form>
+    <br><br>
+
+    <h1>tag fieldset</h1>
+    <form action="post">
+        <fieldset>
+        <legend>dados pessoais</legend>    
+            <label >
+                nome: <br> <input type="text">
+            </label><br>
+            <label >
+                sobrenome: <br> <input type="text">
+            </label><br>
+        </fieldset>
+        <fieldset>
+            
+            <label >
+                empresa: <br> <input type="text">
+            </label><br>
+            <label >
+                cargo: <br> <input type="text">
+            </label><br>
+            <legend>dados da empresa</legend>
+        </fieldset>
+    </form>
+</body>
+</html>

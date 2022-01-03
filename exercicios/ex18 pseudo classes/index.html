@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo class</title>
+    <style>
+        body{
+            font: italic normal 1em arial;
+        }
+        div{
+            display: inline-block;
+            background-color: gray;
+            border: 1px solid black;
+            text-align: center;
+            height: 50px;
+            width: 200px;
+            margin: 20px;
+           
+        }
+        div:hover > .ex{
+            display: block;
+            
+        }
+        div:hover > .ex2{
+            display: block;
+        }
+        .ex{
+            display: none;
+        }
+        .ex2{
+            display: none;
+        }
+        
+        div:hover{
+            background-color: blue;
+            color: rgb(240, 239, 234);
+        }
+        a{
+            text-decoration: none;
+            color: rgba(0, 0, 0, 0.76);
+        }
+        a:hover{
+            color: blanchedalmond;
+            background-color: blue;
+            font-weight: bold;
+            text-decoration: underline;
+            padding: 5px;
+        }
+
+        }
+    </style>
+</head>
+<body>
+    <div>
+        01
+        <div class="ex"> exemplo</div>
+        <div class="ex"> exemplo</div>
+    </div>
+
+    <div>
+        02
+        <div class="ex2">exemplo</div>
+        <div class="ex2">exemplo</div>
+
+    </div>
+
+    <div>
+        03
+    </div>
+    <br>
+    <ul class="lista">
+        <li><a href="pagina2.html">clique aqui</a></li>
+        <li><a href="pagina3.html">clique aqui</a></li>
+        <li><a href="pagina4.html">clique aqui</a></li>
+    </ul>
+    <br>
+    <form action="">ex</form>
+</body>
+</html>

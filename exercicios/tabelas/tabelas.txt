@@ -1,0 +1,30 @@
+<style>
+       td, th{
+        width: 100px;   
+        border: 1px solid #000;
+        text-align: center;
+       }
+   </style>
+</head>
+<body>
+    <h1>Tabelas</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>item 1</th>
+                <th>item 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> 1.1</td>
+                <td>1.2</td>
+            </tr>
+            <tr>
+                <td>2.1</td>
+                <td>2.2</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

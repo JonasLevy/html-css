@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Formulario de cadastro</h1>
+    </header>
+    <main>    
+        <form action="index.html">
+            <label >
+                Nome Completo:
+                <input type="text" id="nome">
+            </label>
+            <label >
+                Email: <input type="email" id="email">
+            </label>
+            <label >
+                sexo: <br> 
+                    <input type="radio" name="sexo" class="inline"> masculino 
+                     <input type="radio" name="sexo" class="inline"> feminino
+            </label>
+            <label>
+                Data de Nascimento:
+                    <input type="date" id="date" min="2021-10-12">
+            </label>
+            <label>
+                CPF:
+                    <input type="number" id="cpf">
+            </label>
+            <label >
+                telefone: <input type="number" id="tel">
+            </label> 
+        
+            <label >
+                Descrição: <br>
+                <textarea name="descricao" id="" cols="30" rows="10"></textarea>
+            </label>
+            <label >
+                arquivo: <input type="file" id="tel">
+            </label>
+            <label >
+                <input type="checkbox" class="inline"> declaro que li e concordo com os <a href="#">termos de uso</a>.
+            </label>
+           <div onclick="info()" id="info"></div>
+        </form>
+        <script src="javascript.js"></script>
+    </main>
+</body>
+</html>
